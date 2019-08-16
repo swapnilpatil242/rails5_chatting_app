@@ -1,16 +1,20 @@
 .chatroom-container {
   border: 1px solid black;
   padding: 20px;
+  position: relative;
 }
 .message {
   margin-top: 5px;
+  margin-bottom: 5px;
 }
 .flash-message { 
   color: red;
   padding: 5px;
 }
+.send-message {
+  position: absolute;
+  bottom: 0;
+}
 .send-message-input {
-  width: 30%;
-  margin-top: 40px;
   border: 2px solid rgb(7, 235, 37);
 }

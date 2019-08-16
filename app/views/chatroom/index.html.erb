@@ -1,8 +1,8 @@
 <%= link_to "login", login_path %>
 
-<div class="chatroom-container">
+<div class="chatroom-container" id="message-container">
   <%= render @messages %>
-  <div>
+  <div class="send-message">
     <%= form_for(@message, url: message_path, remote: true) do |f| %>
       <%= f.text_field :body, class: "send-message-input", required: true %>
       <%= f.button "Send" %>
