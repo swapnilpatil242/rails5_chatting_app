@@ -9,3 +9,8 @@
   color: red;
   padding: 5px;
 }
+.send-message-input {
+  width: 30%;
+  margin-top: 40px;
+  border: 2px solid rgb(7, 235, 37);
+}
