@@ -5,3 +5,9 @@
 #
 #   movies = Movie.create([{ name: 'Star Wars' }, { name: 'Lord of the Rings' }])
 #   Character.create(name: 'Luke', movie: movies.first)
+
+user1 = User.create(:username => "swap")
+Message.create(:body => "This 1 msg from swap", user: user1)
+
+user2 = User.create(:username => "tush")
+Message.create(:body => "This 1 msg from tush", user: user2)
