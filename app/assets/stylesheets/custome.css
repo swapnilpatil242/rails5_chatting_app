@@ -5,3 +5,7 @@
 .message {
   margin-top: 5px;
 }
+.flash-message { 
+  color: red;
+  padding: 5px;
+}
